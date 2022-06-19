@@ -355,6 +355,9 @@
 "Assets/Skripts/CharMovement.cs"
 "Assets/Skripts/MouseLook.cs"
 "Assets/Skripts/WeltWechsel.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/DemoFree.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/FreeCameraLogic.cs"
+"Assets/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs"
 -langversion:9.0
 
 /deterministic
