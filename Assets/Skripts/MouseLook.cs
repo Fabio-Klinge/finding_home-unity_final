@@ -10,7 +10,7 @@ public class MouseLook : MonoBehaviour
     // Move player figure along with camera
     public Transform playerBody;
     
-    // 
+    // To save y-coordinates of mouse
     float xRotation = 0f;
 
     // Start is called before the first frame update
