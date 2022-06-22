@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\Andtech\Star Pack\Editor\Scripts\BaseShaderGUI.cs" />
      <Compile Include="Assets\Assets\Andtech\Star Pack\Editor\Scripts\ParticleStandardGlowShaderGUI.cs" />
+     <Compile Include="Assets\Assets\Andtech\Star Pack\Editor\Scripts\BaseShaderGUI.cs" />
      <None Include="Assets\Assets\Andtech\Star Pack\Editor\Andtech.StarPack.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

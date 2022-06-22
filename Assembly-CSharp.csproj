@@ -39,14 +39,14 @@
      <Compile Include="Assets\Skripts\WeltWechsel.cs" />
      <Compile Include="Assets\Skripts\MouseLook.cs" />
      <Compile Include="Assets\movement.cs" />
+     <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
      <Compile Include="Assets\Skripts\CharMovement.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
      <Compile Include="Assets\Assets\Teleportation Pad\CustomTeleporter.cs" />
+     <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
      <Compile Include="Assets\Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
-     <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
-     <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Assets\Baker House\Readme.txt" />
      <None Include="Assets\Assets\Screw Heads Pack - Free\Documentation.txt" />
@@ -715,11 +715,11 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\iscia\Documents\GitHub\finding_home-unity_final\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\iscia\Documents\GitHub\finding_home-unity_final\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\iscia\Documents\GitHub\finding_home-unity_final\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\Users\iscia\Documents\GitHub\finding_home-unity_final\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\iscia\Documents\GitHub\finding_home-unity_final\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
