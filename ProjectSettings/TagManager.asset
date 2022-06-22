@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - youshallnotpass
   layers:
   - Default
   - TransparentFX

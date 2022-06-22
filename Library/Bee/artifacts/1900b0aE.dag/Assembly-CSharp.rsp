@@ -352,6 +352,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Assets/Grass And Flowers Pack 1/Example Scene/SimpleTextureDrawing.cs"
 "Assets/Assets/Teleportation Pad/CustomTeleporter.cs"
+"Assets/movement.cs"
 "Assets/Skripts/CharMovement.cs"
 "Assets/Skripts/MouseLook.cs"
 "Assets/Skripts/WeltWechsel.cs"

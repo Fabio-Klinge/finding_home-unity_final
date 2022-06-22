@@ -6,7 +6,7 @@ public class CharMovement : MonoBehaviour
 {
     // Init character controller for movement
     public CharacterController controller;
-    public float movementSpeed = 10f;
+    public float movementSpeed = 12f;
 
     // Default gravity value
     public float gravity = -9.18f;
@@ -14,16 +14,17 @@ public class CharMovement : MonoBehaviour
     Vector3 velocity;
 
     // Inits to check the sphere of the ground object of the main character
-    // Used to check for collision with ground
+    // Center of the sphere
     public Transform ground;
     // Radius of sphere
     public float groundDist = 0.4f;
     // Controls which layers we want to collide with
     public LayerMask groundMask;
-    bool isGrounded;
+    public bool isGrounded;
 
     // Jumping
-    public float jumpValue = 5f;
+    public float jumpValue = 100f;
+
 
 
     // Update is called once per frame
@@ -33,21 +34,13 @@ public class CharMovement : MonoBehaviour
         //  collides with ground
         // Collision: isGrounded = True
         isGrounded = Physics.CheckSphere(ground.position, groundDist, groundMask);
-        
-        // Collision detected and negative velocity
-        if(isGrounded && velocity.y < 0)
-        {   
-            // Set velocity close to zero to force player to the ground
-            velocity.y = -2f;
-        }
 
-        // Jump when spacebar is hit and player is on the ground
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            // Changes y value of character
-            // Inspired by physics formula sqrt(height * -2 * gravity)
-            velocity.y = Mathf.Sqrt(jumpValue * -2f * gravity);
-        }
+        // Collision detected and negative velocity on y axis
+      //  if (isGrounded && velocity.y < 0)
+        //{
+            // Small negative velocity to push player to the ground
+         //   velocity.y = -2f;
+        //}
 
         // User presses "d" it will be 1 / "a" -> -1
         float lr = Input.GetAxis("Horizontal");
@@ -60,10 +53,30 @@ public class CharMovement : MonoBehaviour
         // Last term to make it framerate indipendent
         controller.Move(move * movementSpeed * Time.deltaTime);
 
+        // Jump when spacebar is hit and player is on the ground
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            // Changes y movement direction of character
+            // Inspired by physics formula sqrt(height * -2 * gravity)
+            //velocity.y = Mathf.Sqrt(jumpValue * -2f * gravity);
+            velocity.y += jumpValue;
+        }
+
         // Compute custom gravity
         velocity.y += gravity * Time.deltaTime * Time.deltaTime;
         // Apply gravity value
         controller.Move(velocity);
+    }
+
+    //Detect collisions between the GameObjects with Colliders attached
+    void OnCollisionEnter(Collision collision)
+    {
+        //Check for a match with the specific tag on any GameObject that collides with your GameObject
+        if (collision.gameObject.tag == "youshallnotpass")
+        {
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("Do something else here");
+        }
     }
 }
 
