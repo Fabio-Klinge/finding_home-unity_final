@@ -40,6 +40,7 @@
      <Compile Include="Assets\Skripts\MouseLook.cs" />
      <Compile Include="Assets\movement.cs" />
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
+     <Compile Include="Assets\Skripts\Zwischenwelt.cs" />
      <Compile Include="Assets\Skripts\CharMovement.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
@@ -47,11 +48,12 @@
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
      <Compile Include="Assets\Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
-     <Compile Include="Assets\Skripts\Zwischenwelt.cs" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
+     <None Include="Assets\Assets\CS - Signs Free\Standard 2 Sided.shader" />
      <None Include="Assets\Assets\Baker House\Readme.txt" />
      <None Include="Assets\Assets\Screw Heads Pack - Free\Documentation.txt" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShader.shader" />
+     <None Include="Assets\Assets\CS - Signs Free\Readme.txt" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\Assets\Teleportation Pad\README.txt" />
      <None Include="Assets\Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
