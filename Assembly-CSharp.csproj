@@ -47,6 +47,7 @@
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
      <Compile Include="Assets\Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
      <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
+     <Compile Include="Assets\Skripts\Zwischenwelt.cs" />
      <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Assets\Baker House\Readme.txt" />
      <None Include="Assets\Assets\Screw Heads Pack - Free\Documentation.txt" />
