@@ -5,10 +5,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
 
-    var items = new List<item>() {
-                new item(){ Id = 1, Name="screw"},
 
-            };
     // Start is called before the first frame update
     void Start()
     {
