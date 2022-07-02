@@ -36,22 +36,26 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Skripts\MouseLook.cs" />
-     <Compile Include="Assets\movement.cs" />
-     <Compile Include="Assets\Skripts\ChangeWorld.cs" />
+     <Compile Include="Assets\_Skripts\MouseLook.cs" />
+     <Compile Include="Assets\_Skripts\movement.cs" />
+     <Compile Include="Assets\_Skripts\BeingAlive.cs" />
+     <Compile Include="Assets\_Skripts\ChangeWorld.cs" />
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
-     <Compile Include="Assets\Skripts\Mini_World.cs" />
-     <Compile Include="Assets\Skripts\ToHome.cs" />
-     <Compile Include="Assets\Skripts\CharMovement.cs" />
+     <Compile Include="Assets\_Skripts\Mini_World.cs" />
+     <Compile Include="Assets\_Skripts\ToHome.cs" />
+     <Compile Include="Assets\_Skripts\CharMovement.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
      <Compile Include="Assets\Assets\Teleportation Pad\CustomTeleporter.cs" />
-     <Compile Include="Assets\Skripts\ToDesert.cs" />
+     <Compile Include="Assets\_Skripts\ToDesert.cs" />
+     <Compile Include="Assets\Skripts\LivesManager.cs" />
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
+     <Compile Include="Assets\Assets\HealthHeartSystem\Scripts\HealthBarController.cs" />
      <Compile Include="Assets\Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
+     <Compile Include="Assets\Assets\HealthHeartSystem\Scripts\PlayerStats.cs" />
+     <Compile Include="Assets\Assets\HealthHeartSystem\Scripts\HealthBarHUDTester.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
-     <Compile Include="Assets\Prototyp.cs" />
-     <Compile Include="Assets\Skripts\Prototyp.cs" />
+     <Compile Include="Assets\_Skripts\DesertJuice.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -67,6 +71,7 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Assets\HealthHeartSystem\readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
