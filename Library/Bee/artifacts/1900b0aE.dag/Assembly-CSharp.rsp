@@ -359,11 +359,14 @@
 "Assets/Assets/Supercyan Character Pack Free Sample/Scripts/SimpleSampleCharacterControl.cs"
 "Assets/Assets/Teleportation Pad/CustomTeleporter.cs"
 "Assets/movement.cs"
+"Assets/Prototyp.cs"
+"Assets/Skripts/ChangeWorld.cs"
 "Assets/Skripts/CharMovement.cs"
-"Assets/Skripts/Inventory.cs"
+"Assets/Skripts/Mini_World.cs"
 "Assets/Skripts/MouseLook.cs"
-"Assets/Skripts/WeltWechsel.cs"
-"Assets/Skripts/Zwischenwelt.cs"
+"Assets/Skripts/Prototyp.cs"
+"Assets/Skripts/ToDesert.cs"
+"Assets/Skripts/ToHome.cs"
 -langversion:9.0
 
 /deterministic

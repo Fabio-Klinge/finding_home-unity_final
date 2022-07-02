@@ -36,19 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Skripts\WeltWechsel.cs" />
      <Compile Include="Assets\Skripts\MouseLook.cs" />
      <Compile Include="Assets\movement.cs" />
+     <Compile Include="Assets\Skripts\ChangeWorld.cs" />
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\Spin.cs" />
-     <Compile Include="Assets\Skripts\Inventory.cs" />
-     <Compile Include="Assets\Skripts\Zwischenwelt.cs" />
+     <Compile Include="Assets\Skripts\Mini_World.cs" />
+     <Compile Include="Assets\Skripts\ToHome.cs" />
      <Compile Include="Assets\Skripts\CharMovement.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
      <Compile Include="Assets\Assets\Teleportation Pad\CustomTeleporter.cs" />
+     <Compile Include="Assets\Skripts\ToDesert.cs" />
      <Compile Include="Assets\Assets\Andtech\Star Pack\Samples\Star Pack Demo\Scripts\ActivateDepthRendering.cs" />
      <Compile Include="Assets\Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
      <Compile Include="Assets\Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
+     <Compile Include="Assets\Prototyp.cs" />
+     <Compile Include="Assets\Skripts\Prototyp.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

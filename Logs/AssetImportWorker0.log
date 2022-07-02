@@ -15,7 +15,7 @@ C:/Users/iscia/Documents/SS 22/Unity/finding_home-unity_final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56972
+56454
 Successfully changed project path to: C:/Users/iscia/Documents/SS 22/Unity/finding_home-unity_final
 C:/Users/iscia/Documents/SS 22/Unity/finding_home-unity_final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/iscia/Documents/SS 22/Unity/finding_home-unity_final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 577.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 275.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.038124 seconds.
+Registered in 0.040686 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 359.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 315.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.651 seconds
+- Completed reload, in  2.460 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2653ms)
-		BeginReloadAssembly (366ms)
+	ReloadAssembly (2465ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1814ms)
-			LoadAssemblies (353ms)
+		EndReloadAssembly (1668ms)
+			LoadAssemblies (261ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (468ms)
+			SetupTypeCache (341ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (1070ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1059ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (360ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (502ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
+				RefreshPlugins (316ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (511ms)
+				ProcessInitializeOnLoadMethodAttributes (196ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.033282 seconds.
+Registered in 0.039313 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\iscia\Documents\SS 22\Unity\finding_home-unity_final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\iscia\Documents\SS 22\Unity\finding_home-unity_final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 12.131 seconds
+- Completed reload, in  4.555 seconds
 Domain Reload Profiling:
-	ReloadAssembly (12141ms)
-		BeginReloadAssembly (406ms)
+	ReloadAssembly (4562ms)
+		BeginReloadAssembly (464ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (10438ms)
-			LoadAssemblies (359ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (2535ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (826ms)
-			SetupLoadedEditorAssemblies (5629ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (3694ms)
+			LoadAssemblies (453ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (903ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (1964ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (96ms)
-				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (7ms)
-				BeforeProcessingInitializeOnLoad (1341ms)
-				ProcessInitializeOnLoadAttributes (3654ms)
-				ProcessInitializeOnLoadMethodAttributes (342ms)
-				AfterProcessingInitializeOnLoad (176ms)
-				EditorAssembliesLoaded (2ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (403ms)
+				ProcessInitializeOnLoadAttributes (1337ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (62ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (105ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.55 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (112.2 KB). Loaded Objects now: 3891.
-Memory consumption went from 144.5 MB to 144.4 MB.
-Total: 14.552700 ms (FindLiveObjects: 0.657400 ms CreateObjectMapping: 0.498700 ms MarkObjects: 13.057300 ms  DeleteObjects: 0.336700 ms)
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.4 KB). Loaded Objects now: 3894.
+Memory consumption went from 144.6 MB to 144.4 MB.
+Total: 10.652400 ms (FindLiveObjects: 0.585400 ms CreateObjectMapping: 0.560600 ms MarkObjects: 9.159500 ms  DeleteObjects: 0.344200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,605 +159,47 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1180383.729300 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Ground3cc0f254a2c535401.terrainlayer
-  artifactKey: Guid(b94b0acee5421cb4a9767aab5aa2df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Ground3cc0f254a2c535401.terrainlayer using Guid(b94b0acee5421cb4a9767aab5aa2df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd72044ec05b4f6ad013a38be0e8b7a9') in 0.430608 seconds 
+  Time since last request: 1274423.345600 seconds.
+  path: Assets/Skripts/Prototyp.cs
+  artifactKey: Guid(7ce2d843949f40542a419df29d080d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skripts/Prototyp.cs using Guid(7ce2d843949f40542a419df29d080d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f665e1055638a6aebc2d3906234cbe90') in 0.508451 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.754437 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab
-  artifactKey: Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab using Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8dca662d1980cc8c7d0d8798880cfc') in 0.265559 seconds 
+  Time since last request: 58.325824 seconds.
+  path: Assets/Skripts/Prototyp.cs
+  artifactKey: Guid(7ce2d843949f40542a419df29d080d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skripts/Prototyp.cs using Guid(7ce2d843949f40542a419df29d080d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c8c2db72e1783835b10d0cdaba8cee') in 0.094880 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.601800 seconds.
-  path: Assets/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat
-  artifactKey: Guid(0d77e7dfe6c8918409bb739458ba8a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat using Guid(0d77e7dfe6c8918409bb739458ba8a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07228f2c2b95ecd0d9f2b3174c3cc87') in 0.134748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.565876 seconds.
-  path: Assets/Cactus2.prefab
-  artifactKey: Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cactus2.prefab using Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b07537dce63ade44ec56c45eeb90184') in 0.125722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.026682 seconds.
-  path: Assets/ThisCactus2.prefab
-  artifactKey: Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThisCactus2.prefab using Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e5724561f90fb7bf6e86598b0f5b0') in 0.113743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.063471 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab
-  artifactKey: Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab using Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea34a9ce0cef8bd92cf79f30157b24') in 0.184947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.794572 seconds.
-  path: Assets/Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-float.FBX
-  artifactKey: Guid(a61a057436c775f449fcb20e89101739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Supercyan Character Pack Free Sample/Animations/common_people@jump-float.FBX using Guid(a61a057436c775f449fcb20e89101739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4c346fd3927703f685a81402fadc82') in 0.548546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Assets/Andtech/Star Pack/Samples/Star Pack Demo/Models/Heart.fbx
-  artifactKey: Guid(5463771b18824cc4084ee77ffa39e541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Andtech/Star Pack/Samples/Star Pack Demo/Models/Heart.fbx using Guid(5463771b18824cc4084ee77ffa39e541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff89911db0c78514bb3fb32d32e6ea6') in 0.111036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Assets/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/Mobile/MobileMaleFreeSimpleMovement1.prefab
-  artifactKey: Guid(16e7451e81164bc4caac73768f16ceb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Supercyan Character Pack Free Sample/Prefabs/Simple Movement/Mobile/MobileMaleFreeSimpleMovement1.prefab using Guid(16e7451e81164bc4caac73768f16ceb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f20affcbd75f3ff78dbf55d4638c6') in 0.472981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.687725 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Aloe.mat
-  artifactKey: Guid(a58be5973538d264eb695c3db32e1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Aloe.mat using Guid(a58be5973538d264eb695c3db32e1d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138f5d26c3c0adcc8d67d5cd46a7dfcd') in 0.165396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Assets/Screw Heads Pack - Free/URP/Materials/Screws/Aluminium Material.mat
-  artifactKey: Guid(5684e62f9d0b13240b5e3444ee982e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Screw Heads Pack - Free/URP/Materials/Screws/Aluminium Material.mat using Guid(5684e62f9d0b13240b5e3444ee982e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87702bf68ccf3c6798f46d7b7d36934f') in 0.204855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.218542 seconds.
-  path: Assets/Assets/amusedART/Monster Bat/Bat Material.mat
-  artifactKey: Guid(6e89b9b30bff9b84d9c5569b5065d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/amusedART/Monster Bat/Bat Material.mat using Guid(6e89b9b30bff9b84d9c5569b5065d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097d9ff2997b9d8cde092b588fd6ebc3') in 0.157961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.461790 seconds.
-  path: Assets/Assets/amusedART/Monster Bat/Materials/Bat_Normal.mat
-  artifactKey: Guid(c5802b7f73990cb4a988160ef3224c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/amusedART/Monster Bat/Materials/Bat_Normal.mat using Guid(c5802b7f73990cb4a988160ef3224c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaf76f0d19cefc4c11c0cc309949d57') in 0.069463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083652 seconds.
-  path: Assets/Assets/Screw Heads Pack - Free/Builtin RP/Materials/Screws/Black Material.mat
-  artifactKey: Guid(50a7e891f95224244a5c6fb1b02626af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Screw Heads Pack - Free/Builtin RP/Materials/Screws/Black Material.mat using Guid(50a7e891f95224244a5c6fb1b02626af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853a0df9549cbefd64fcfd80914ed3cc') in 0.093945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.270116 seconds.
-  path: Assets/Assets/Andtech/Star Pack/Samples/Star Pack Demo/Materials/Blue.mat
-  artifactKey: Guid(335ab5495dae41143907e1b842786591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Andtech/Star Pack/Samples/Star Pack Demo/Materials/Blue.mat using Guid(335ab5495dae41143907e1b842786591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de4d8880419e2517bd1c89a1c1dafc4') in 0.064739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.131431 seconds.
-  path: Assets/Assets/Grass And Flowers Pack 1/Bush/Materials/Bush 1.mat
-  artifactKey: Guid(44ed01eb6b2eebb44a26648ec172a75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Grass And Flowers Pack 1/Bush/Materials/Bush 1.mat using Guid(44ed01eb6b2eebb44a26648ec172a75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f19ccd257226125a41a7e35e29b8623') in 0.163338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Assets/Screw Heads Pack - Free/URP/Materials/Screws/Copper Material.mat
-  artifactKey: Guid(75d0e704ecbd26f41bf37394b359d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Screw Heads Pack - Free/URP/Materials/Screws/Copper Material.mat using Guid(75d0e704ecbd26f41bf37394b359d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0e9d6a9977ef9c17af931dde5694c0') in 0.151525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.157801 seconds.
-  path: Assets/Assets/Screw Heads Pack - Free/Builtin RP/Materials/Screws/Copper Material.mat
-  artifactKey: Guid(5f5961ab70f4acb48a6b8c16a5c768fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Screw Heads Pack - Free/Builtin RP/Materials/Screws/Copper Material.mat using Guid(5f5961ab70f4acb48a6b8c16a5c768fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87cf035dde963b1d25e19bccc6969d4') in 0.082829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.471957 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Materials/defaultMat.mat
-  artifactKey: Guid(7762fac154281ce40ae3cd0b4c18cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Materials/defaultMat.mat using Guid(7762fac154281ce40ae3cd0b4c18cfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379224a6f3dc5e2bf0a7f530c4ee50ac') in 0.089704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.068284 seconds.
-  path: Assets/Assets/Desert Rock/Materials/DesertRock512 Displacement.mat
-  artifactKey: Guid(382cda4fd75cc1043bb28f8256028de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Desert Rock/Materials/DesertRock512 Displacement.mat using Guid(382cda4fd75cc1043bb28f8256028de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62513f93675f99bed31e589e2c3151f4') in 0.716296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Flower.mat
-  artifactKey: Guid(a0eb1ba83e4b048409871a19b9850bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/Flower.mat using Guid(a0eb1ba83e4b048409871a19b9850bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7830091d37fcd95b06ead8cd7a92d9') in 0.098056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.229982 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/FlowerCenter.mat
-  artifactKey: Guid(0d2b752cb7a0cfa4883178ad88553bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Materials/FlowerCenter.mat using Guid(0d2b752cb7a0cfa4883178ad88553bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbaa30964324f48886fea0705ac509b') in 0.044736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 81.365579 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs
-  artifactKey: Guid(f26000e2a9284924e970e4237571ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs using Guid(f26000e2a9284924e970e4237571ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af35f03c21b155df7350cd7788e86b7') in 0.025468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab
-  artifactKey: Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab using Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1a7fb4db0e172d3887dad4b00f5883') in 0.087245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock08.prefab
-  artifactKey: Guid(a45f923de9555884cbe160883ce87a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock08.prefab using Guid(a45f923de9555884cbe160883ce87a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae646fc4b73ca771a7deac55ad3e950d') in 0.088925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab
-  artifactKey: Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab using Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce88d30ae4974bbd40a1d200612d339') in 0.108717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock04.prefab
-  artifactKey: Guid(37d65ed67498b304ea4da8a6b7c2d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock04.prefab using Guid(37d65ed67498b304ea4da8a6b7c2d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a74e95b48dce77bb8bca69f3f6be59') in 0.098234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock06.prefab
-  artifactKey: Guid(b7bdd751d1270e14291b000d68d117c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock06.prefab using Guid(b7bdd751d1270e14291b000d68d117c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcd8b8c3672be3badabcbd07613604b') in 0.089623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.140750 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/NewSurfaceShader.shader
-  artifactKey: Guid(cc2272a33e5bc3b498ebf1e361f73fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/NewSurfaceShader.shader using Guid(cc2272a33e5bc3b498ebf1e361f73fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826a9d933cf1ed3cc8da458d7cd0f896') in 0.034432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 87.076408 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab
-  artifactKey: Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab using Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588894977d15b8a007c4398a7b9fe211') in 0.065147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.965445 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab
-  artifactKey: Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab using Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7d556cf79b5aee4631cb85673b30e9') in 0.047548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.674572 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab
-  artifactKey: Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab using Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ad4355b22f6e25c3d0937655ef1c37') in 0.064886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.140755 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab
-  artifactKey: Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab using Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffe647affff554369cb2a15401ed45d') in 0.056685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.064884 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab
-  artifactKey: Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3.prefab using Guid(50294217694c1a145a9a3b86f853c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909f70197034528b8caf82770cf0cffa') in 0.078016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock03.prefab
-  artifactKey: Guid(e3a2b024936fe54498e16bf28bfd0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock03.prefab using Guid(e3a2b024936fe54498e16bf28bfd0e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de514eaf193078bfcfcafc09d046fa04') in 0.060436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab
-  artifactKey: Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab using Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfed680a79e227eca2ea01aaba3fee81') in 0.053603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock04.prefab
-  artifactKey: Guid(37d65ed67498b304ea4da8a6b7c2d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock04.prefab using Guid(37d65ed67498b304ea4da8a6b7c2d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdacb9af4a4a809ce3540f378e3cf4ee') in 0.049035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock06.prefab
-  artifactKey: Guid(b7bdd751d1270e14291b000d68d117c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock06.prefab using Guid(b7bdd751d1270e14291b000d68d117c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ce03ce856686d91b0d4016c234d687') in 0.041865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.432826 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab
-  artifactKey: Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab using Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08e7af1596351dd4317fe23457045a6') in 0.044936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.984239 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab
-  artifactKey: Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab using Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d20965dd3c339531d6660da63c0fcc') in 0.046176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.187396 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab
-  artifactKey: Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab using Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6fe04d42531c0384a1591d2bcd6bf') in 0.052933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.760902 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d708b6e66b699bee3806c15815ca444') in 0.049099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.810730 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340b2f0177b1b19383796df30c2e4769') in 0.073719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.760310 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b442403d06b375dc067b2e134c4de280') in 0.088224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.650165 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b3cbbae2abb725ad7b5260454d55b7') in 0.046471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.432545 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab32a39efbaeeb5a4e1d3a8da1ccfaf4') in 0.083609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.040201 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547befa62b912cfc2eb052317084fdf3') in 0.046912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 147.323302 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab
-  artifactKey: Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab using Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e2a790ac67475a02819c322b4bb5da') in 0.067536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.186543 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab
-  artifactKey: Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab using Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17447de0df50e1a65cb8d2bdfc34c5d1') in 0.080578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.366984 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab
-  artifactKey: Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab using Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f3ad9e4e84f649632567f6df1c068c') in 0.073051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.261343 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab
-  artifactKey: Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock01.prefab using Guid(3e63f970932e56649b966445efd75396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a645f71c9609c128e0b814e93b4def') in 0.100126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.678655 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab
-  artifactKey: Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab using Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dba35ca8b5f503363e01ea62f6e155e') in 0.092549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.363510 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab
-  artifactKey: Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab using Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47e8a50daf9519ad75073750d798806') in 0.063399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.092125 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab
-  artifactKey: Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab using Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508cf26996b37bd55c6de1786a467084') in 0.073346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.684786 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab
-  artifactKey: Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab using Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef3f6c62569511586e95d677096b8a0') in 0.076342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.950208 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab
-  artifactKey: Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab using Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd906ff0ebbc0ac4588429daa0aa43ab') in 0.150666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.800492 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab
-  artifactKey: Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab using Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74297760339d71f1d1cd859f1fb08bd5') in 0.845658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.651930 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab
-  artifactKey: Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2.prefab using Guid(65da5bb2d6e288b41baa018d8fec58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427b5409204614cd9abf8d560bb6f457') in 1.519978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.056843 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab
-  artifactKey: Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1.prefab using Guid(575780dd1f55b7941803be0767c1e36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830293128e288387d931ba542862d48') in 0.696546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.499871 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab
-  artifactKey: Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab using Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f881ab1e1113461209096e1ff9ab0e1') in 0.260601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.649930 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab
-  artifactKey: Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock02.prefab using Guid(91af7a3706671b943974b6ef43812fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd727cbec4542dc2781619d17f8c54694') in 0.121828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.641610 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab
-  artifactKey: Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07.prefab using Guid(802bd3dc24c20394ca2037c1b9c882a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea70cc5d31975b9a7be4bf9c778106f') in 0.076860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.445229 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab
-  artifactKey: Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab using Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727d08485299096ae677da3767c46477') in 0.096927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.691195 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab
-  artifactKey: Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab using Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a954aafa2697f8841a58d7580e334e2') in 0.079349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.568623 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab
-  artifactKey: Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab using Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d5c9cc0cdb8aa4fea072a5b086bd7a') in 0.086790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.794827 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab
-  artifactKey: Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab using Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e6b62656ab1c2f41fbc1bfc839f1d9') in 0.130759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.777225 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab
-  artifactKey: Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe.prefab using Guid(8a13b3dbbf597744192ac4a84ebb93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88109128dab6b59ea75859b478198f05') in 0.133696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.616712 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 (4) Variant.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 (4) Variant.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f99047cd7fe1eb0fcc665fd2877fdc') in 0.077762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.999143 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36de5c9ef6b1d05b1f1dabdf4c007ea9') in 0.069927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.384198 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0410f6e42b1d0effa7bdd4cf73754252') in 0.062871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.211823 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad6cab2fa6cb42b6777f78a82441fe1') in 0.059914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.887693 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d93e8d1a3f65ed3dbf2bd6e017cc0a') in 0.064753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.305677 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b852881990ca53173974d94fe208db') in 0.060917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.812814 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cadde80bbbc5e4cffaaafd6fc76f3d') in 0.062096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.190458 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab
-  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5a07cb59ab00be380ffb4531f88c47') in 0.076456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.547086 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 1.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 1.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316b0eab67815397ad6a7a9b6f62a56b') in 0.085864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.582895 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9466ffdf486f3e49ef3be400b809926') in 0.083925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.981955 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1a944a1efe3dcf5f00184fc743fc17') in 0.069124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.390761 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89a19b072f3a68e457ce5528e6ae6fb') in 0.052896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.442808 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd26b12ca22a29ffc6d31b68fbe5012') in 0.066042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.994597 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd92de4b78121b6cad046c12bd5fba8') in 0.082755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.849586 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71bcebfc8acedca4d0f8ad254226383') in 0.059204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.316967 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab
-  artifactKey: Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/rock07 klein.prefab using Guid(486d37fc85dd85c4b96cf6d222f04015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1202765a6e085e88f5357a9f46e2dd') in 0.082861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.386432 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 1.prefab
-  artifactKey: Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 1.prefab using Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b548fce092ec890d579b3f591874d5f') in 0.077603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.188631 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab
-  artifactKey: Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab using Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00dc67923b5397bca41a737367caad6') in 0.089486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.179630 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab
-  artifactKey: Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab using Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c74f745c2de000c700812d63aeae35') in 0.076007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.002820 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab
-  artifactKey: Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab using Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2d586725d5d90828e237d0a933d53f') in 0.084652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.235747 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab
-  artifactKey: Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus3 groß.prefab using Guid(7d4ccbfb38e4e3c4da2fc1176906c9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e5d9f9ac85bcab8d08e3da99b60d8e') in 0.064464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.839636 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe 1.prefab
-  artifactKey: Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe 1.prefab using Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3573850d74f39f8fa3014d1f0a57c39') in 0.054340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.412219 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab
-  artifactKey: Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab using Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df512438d23e46851024cc05b69ae68d') in 0.052719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.759858 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab
-  artifactKey: Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab using Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a307117be8abbbce3e980eaa9788e454') in 0.042694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.633085 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab
-  artifactKey: Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab using Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40694768076713762d9e347acf8cd479') in 0.050604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.069048 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab
-  artifactKey: Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Aloe klein.prefab using Guid(2b5558ee56ab8574a9fa8d02d8d87b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96674a0e5509cd788f98c0f57e7835f') in 0.035176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 129.043543 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab
-  artifactKey: Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab using Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69dda5c1917e9cfd6312f6923920bad') in 0.071400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.448743 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab
-  artifactKey: Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab using Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a2082f3c3632768738ad48c41694a2') in 0.069920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.224421 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab
-  artifactKey: Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab using Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa1cc26c59e49a3c10bfbbac412932') in 0.056503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.636843 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab
-  artifactKey: Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 1.prefab using Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7685a3b00a76cf960d6c34acc0923d2b') in 0.057760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.618861 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 klein.prefab
-  artifactKey: Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Prefabs/Cactus1 klein.prefab using Guid(a6a50594c6100fc4dbfeef93825cb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea56a931964e78999d2e039b29fbeab') in 0.074634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 537.962894 seconds.
-  path: Assets/Runemark Studio/Freebies/Polygon Desert Pack/Cactus
-  artifactKey: Guid(f26000e2a9284924e970e4237571ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Runemark Studio/Freebies/Polygon Desert Pack/Cactus using Guid(f26000e2a9284924e970e4237571ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfae6d71806fc5617daca9112c4b8b7') in 0.025173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.628461 seconds.
+  Time since last request: 36.355169 seconds.
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(0d2e3da4fb8fb554d81647139deba46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain 1.asset using Guid(0d2e3da4fb8fb554d81647139deba46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Cactus2 couldn't be instanced because the prefab contains no valid mesh renderer.
 The tree ThisCactus2 couldn't be instanced because one of the materials is missing.
 The tree ThisCactus2 couldn't be instanced because the mesh renderer material is null.
 The tree ThisCactus2 couldn't be instanced because one of the materials is missing.
- -> (artifact id: 'bb5e24a1431f9a7e9935b89e9f8ed782') in 0.192920 seconds 
+ -> (artifact id: 'a34280d6b0988c0ff22073ccc7a8b3ef') in 0.238703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.236918 seconds.
+  path: Assets/ThisCactus2.prefab
+  artifactKey: Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThisCactus2.prefab using Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6bdeb170da27fa2d21e4f31e8e9ed9') in 0.152514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.918318 seconds.
+  path: Assets/ThisCactus2 1.prefab
+  artifactKey: Guid(8ab3a3b5d546fd94cbebf5140878259d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThisCactus2 1.prefab using Guid(8ab3a3b5d546fd94cbebf5140878259d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fca70b83aba3de9b1b93643001b1269') in 0.046830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015781 seconds.
+  path: Assets/ThisCactus2.prefab
+  artifactKey: Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThisCactus2.prefab using Guid(b6f39e8bc3e9158428e926955cf552ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d58e7c2184491a4734f607e99d6fe7') in 0.041960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.041748 seconds.
+  path: Assets/Assets/Cactus/Cactus2 groß.prefab
+  artifactKey: Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cactus/Cactus2 groß.prefab using Guid(14df7697de5a14543995a8fa54c3412a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a09452ae8e7024b710e13d2f134de8') in 0.027819 seconds 
