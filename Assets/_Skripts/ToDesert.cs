@@ -8,6 +8,9 @@ public class ToDesert : MonoBehaviour
    // SWITCH TO DESERT
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(3);
+        if(other.CompareTag("Teleporter"))
+        {
+            SceneManager.LoadScene(3);
+        }       
     }
 }

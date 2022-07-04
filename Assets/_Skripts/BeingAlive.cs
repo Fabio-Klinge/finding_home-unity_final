@@ -10,7 +10,7 @@ public class BeingAlive : MonoBehaviour
 
     private void Start()
     {
-        //life = hearts.length;
+        life = 3;
     }
 
     // Update is called once per frame

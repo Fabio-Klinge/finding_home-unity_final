@@ -6,6 +6,9 @@ TagManager:
   tags:
   - youshallnotpass
   - item
+  - Teleporter
+  - MiniWorld
+  - Screw
   layers:
   - Default
   - TransparentFX

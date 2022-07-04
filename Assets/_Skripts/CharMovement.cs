@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CharMovement : MonoBehaviour
 {
+    
+    
     // Init character controller for movement
     public CharacterController controller;
     public float movementSpeed = 12f;
 
     // Default gravity value
-    public float gravity = -9.18f;
+    private float gravity = -9.18f;
     // Stores our movement direction  
     Vector3 velocity;
 
@@ -24,7 +26,24 @@ public class CharMovement : MonoBehaviour
 
     // Jumping
     public float jumpValue = 100f;
+    
+    //UI_Manager for lifes
+    //[SerializeField]
+    //private Ui_Manager uiManager :;
 
+    // lives Manager
+    private BeingAlive beingAlive;
+ 
+    [SerializeField]
+    private GameOver gameover;
+
+
+    void Start()
+    {
+        // START POSITION 
+        transform.position = new Vector3(0f, 0f, 0f);
+
+    }
 
 
     // Update is called once per frame
@@ -66,6 +85,8 @@ public class CharMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime * Time.deltaTime;
         // Apply gravity value
         controller.Move(velocity);
+
+        Border();
     }
 
     //Detect collisions between the GameObjects with Colliders attached
@@ -76,6 +97,23 @@ public class CharMovement : MonoBehaviour
         {
             //If the GameObject has the same tag as specified, output this message in the console
             Debug.Log("Do something else here");
+        }
+    }
+
+    public void GameOver()
+    {
+        gameover.Setup();
+    }
+
+
+    // transfrom to position on platfrom when left platfrom 
+    // takeDamage to lose a life
+    void Border()
+    {
+        if(transform.position.y < -10)
+        {
+            transform.position = new Vector3(0f, 2f, 0f);
+            beingAlive.TakeDamage(1);
         }
     }
 }
