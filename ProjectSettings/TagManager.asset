@@ -9,6 +9,8 @@ TagManager:
   - Teleporter
   - MiniWorld
   - Screw
+  - MainChar
+  - SideChar
   layers:
   - Default
   - TransparentFX

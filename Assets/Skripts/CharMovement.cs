@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class CharMovement : MonoBehaviour
 {
-    
+
+    // Side char script
+    SideCharBehaviour sideChar;
     
     // Init character controller for movement
     public CharacterController controller;
     public float movementSpeed = 12f;
 
     // Default gravity value
+    [SerializeField]
     private float gravity = -9.18f;
     // Stores our movement direction  
     Vector3 velocity;
@@ -37,9 +40,14 @@ public class CharMovement : MonoBehaviour
 
     void Start()
     {
-        // START POSITION 
-        transform.position = new Vector3(0f, 0f, 0f);
+        // Program starts
+        Debug.Log("I am starting");
 
+        // START POSITION 
+        //transform.position = new Vector3(0f, 0f, 0f);
+
+        // Import other script
+        sideChar = GameObject.FindGameObjectWithTag("SideChar").GetComponent<SideCharBehaviour>();
     }
 
 
@@ -70,7 +78,7 @@ public class CharMovement : MonoBehaviour
         controller.Move(move * movementSpeed * Time.deltaTime);
 
         // Jump when spacebar is hit and player is on the ground
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.T) && isGrounded)
         {
             // Changes y movement direction of character
             // Inspired by physics formula sqrt(height * -2 * gravity)
@@ -78,12 +86,18 @@ public class CharMovement : MonoBehaviour
             velocity.y += jumpValue;
         }
 
+        // Test side char
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            sideChar.VisitMain("mainass");
+        }
+
         // Compute custom gravity
         velocity.y += gravity * Time.deltaTime * Time.deltaTime;
         // Apply gravity value
         controller.Move(velocity);
 
-        Border();
+        //Border();
     }
 
     //Detect collisions between the GameObjects with Colliders attached

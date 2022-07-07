@@ -373,6 +373,7 @@
 "Assets/Skripts/movement.cs"
 "Assets/Skripts/ScrewCollision.cs"
 "Assets/Skripts/ScrewInventory.cs"
+"Assets/Skripts/SideCharBehaviour.cs"
 "Assets/Skripts/ToDesert.cs"
 "Assets/Skripts/ToHome.cs"
 -langversion:9.0
