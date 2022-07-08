@@ -35,6 +35,7 @@ public class MouseLook : MonoBehaviour
         
         // Keep track of x-rotation
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        // Vector to rotate the player by
         playerBody.Rotate(Vector3.up * mouseX);
     }
 }
