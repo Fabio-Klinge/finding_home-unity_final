@@ -10,11 +10,14 @@ public class CharMovement : MonoBehaviour
     
     // Init character controller for movement
     public CharacterController controller;
-    public float movementSpeed = 12f;
+
+    // Chracter speed
+    [SerializeField]
+    private float movementSpeed = 12f;
 
     // Default gravity value
     [SerializeField]
-    private float gravity = -9.18f;
+    private float gravity = -8;
     // Stores our movement direction  
     Vector3 velocity;
 
@@ -28,7 +31,9 @@ public class CharMovement : MonoBehaviour
     public bool isGrounded;
 
     // Jumping
-    public float jumpValue = 100f;
+    [SerializeField]
+    private float jumpValue = 5f;
+    private float yspeed; 
     
     //UI_Manager for lifes
     //[SerializeField]
@@ -56,47 +61,70 @@ public class CharMovement : MonoBehaviour
     {
         // Creates Sphere around ground object (from character) and checks wether this sphere
         //  collides with ground
-        // Collision: isGrounded = True
-        isGrounded = Physics.CheckSphere(ground.position, groundDist, groundMask);
+        // If player collides: isGrounded == True
+        //isGrounded = Physics.CheckSphere(ground.position, groundDist, groundMask);
 
+         if (controller.isGrounded)
+        {
+            isGrounded = true;
+        }
+
+        // NEW WAY TO CAP VELOCITY
         // Collision detected and negative velocity on y axis
-      //  if (isGrounded && velocity.y < 0)
-        //{
+        if (isGrounded && velocity.y < 0)
+        {
+            // Resets velocity
             // Small negative velocity to push player to the ground
-         //   velocity.y = -2f;
-        //}
+            velocity.y = -2f;
+        }
+
 
         // User presses "d" it will be 1 / "a" -> -1
         float lr = Input.GetAxis("Horizontal");
         // User presses "w" it will be 1 / "s" -> -1
         float updown = Input.GetAxis("Vertical");
 
-        // Direction in comparison to players current position
+        // Direction in comparison to players current position/direction
         Vector3 move = transform.right * lr + transform.forward * updown;
         // Move Character
-        // Last term to make it framerate indipendent
+        // Last term to make movement framerate indipendent
         controller.Move(move * movementSpeed * Time.deltaTime);
 
+        //if (controller.isGrounded)
+        //{
+
+        //    velocity.y = -2f;
+        //    Debug.Log("me grounded");
+
+        //    if (Input.GetKeyDown(KeyCode.Space)){
+
+        //        velocity.y = jumpValue;
+        //    }
+        //}
+
         // Jump when spacebar is hit and player is on the ground
-        if (Input.GetKeyDown(KeyCode.T) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
+            Debug.Log("why no jump then");
             // Changes y movement direction of character
             // Inspired by physics formula sqrt(height * -2 * gravity)
-            //velocity.y = Mathf.Sqrt(jumpValue * -2f * gravity);
+            //velocity.y = Mathf.Sqrt(jumpValue * 2f * gravity);
             velocity.y += jumpValue;
         }
 
+        // Compute custom gravity
+        velocity.y += gravity * Time.deltaTime;
+        // Apply gravity value
+        controller.Move(velocity * Time.deltaTime);
+
+
         // Test side char
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.T))
         {
             sideChar.VisitMain("mainass");
         }
 
-        // Compute custom gravity
-        velocity.y += gravity * Time.deltaTime * Time.deltaTime;
-        // Apply gravity value
-        controller.Move(velocity);
-
+        isGrounded = false;
         //Border();
     }
 
