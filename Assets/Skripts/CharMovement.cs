@@ -64,7 +64,8 @@ public class CharMovement : MonoBehaviour
         // If player collides: isGrounded == True
         //isGrounded = Physics.CheckSphere(ground.position, groundDist, groundMask);
 
-         if (controller.isGrounded)
+        // Leads to faster updates of the controller.isGrounded flag
+        if (controller.isGrounded)
         {
             isGrounded = true;
         }
@@ -90,18 +91,6 @@ public class CharMovement : MonoBehaviour
         // Last term to make movement framerate indipendent
         controller.Move(move * movementSpeed * Time.deltaTime);
 
-        //if (controller.isGrounded)
-        //{
-
-        //    velocity.y = -2f;
-        //    Debug.Log("me grounded");
-
-        //    if (Input.GetKeyDown(KeyCode.Space)){
-
-        //        velocity.y = jumpValue;
-        //    }
-        //}
-
         // Jump when spacebar is hit and player is on the ground
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
@@ -121,7 +110,7 @@ public class CharMovement : MonoBehaviour
         // Test side char
         if (Input.GetKeyDown(KeyCode.T))
         {
-            sideChar.VisitMain("mainass");
+            sideChar.VisitMain("communication");
         }
 
         isGrounded = false;

@@ -366,6 +366,7 @@
 "Assets/Skripts/CharMovement.cs"
 "Assets/Skripts/FromMiniWorld.cs"
 "Assets/Skripts/GameOver.cs"
+"Assets/Skripts/Inventory.cs"
 "Assets/Skripts/Juice.cs"
 "Assets/Skripts/MainMenu.cs"
 "Assets/Skripts/MiniWorld.cs"
