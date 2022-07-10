@@ -32,7 +32,7 @@ public class CharBehaviour : MonoBehaviour
 
     // Jumping
     [SerializeField]
-    private float jumpValue = 5f;
+    private float jumpValue = 40f;
     private float yspeed; 
     
     //UI_Manager for lifes
@@ -40,7 +40,7 @@ public class CharBehaviour : MonoBehaviour
     //private Ui_Manager uiManager :;
 
     // lives Manager
-    private BeingAlive beingAlive;
+    public BeingAlive beingAlive;
 
     // To switch between cursor lock states
     private bool cursor_lock = true;
@@ -142,7 +142,7 @@ public class CharBehaviour : MonoBehaviour
         // Reset Groundcheck
         isGrounded = false;
 
-        //Border();
+        Border();
     }
 
     //Detect collisions between the GameObjects with Colliders attached
@@ -164,7 +164,7 @@ public class CharBehaviour : MonoBehaviour
         if(transform.position.y < -10)
         {   
             // Reset position SET TO START POINT
-            transform.position = new Vector3(0f, 2f, 0f);
+            transform.position = new Vector3(1592.54f, 101.2f, 509.9f);
             // Lose 1 life 
             beingAlive.TakeDamage(1);
         }

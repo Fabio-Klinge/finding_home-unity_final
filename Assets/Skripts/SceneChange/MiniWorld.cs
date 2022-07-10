@@ -10,7 +10,7 @@ public class MiniWorld : MonoBehaviour
     {
         if(other.CompareTag("MiniWorld"))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(5);
         }    
     }
 }

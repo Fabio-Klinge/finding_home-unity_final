@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: b25cd4f2c77cf2646af2634456d6ba3f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MiniWelt.unity
     guid: bd47516a33f628d4eb569301adb1a821
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2_Desert.unity
     guid: 682baaa213e027f43a86bb34968e201c
   - enabled: 1
@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 37473e4a9d601ed40a0dc81df5bde0a0
+  - enabled: 1
+    path: Assets/Scenes/2_Desertt.unity
+    guid: be0522c46996caa4aac6c77cce570862
+  - enabled: 1
+    path: Assets/Scenes/MiniWorld.unity
+    guid: 0daf8613cf19b3444a533a30a97c2718
   m_configObjects: {}

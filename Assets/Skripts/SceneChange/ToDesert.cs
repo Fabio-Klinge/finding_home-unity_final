@@ -10,7 +10,7 @@ public class ToDesert : MonoBehaviour
     {
         if(other.CompareTag("Teleporter"))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }       
     }
 }

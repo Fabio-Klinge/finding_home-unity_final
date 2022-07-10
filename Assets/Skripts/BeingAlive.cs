@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BeingAlive : MonoBehaviour
 {
@@ -18,14 +19,17 @@ public class BeingAlive : MonoBehaviour
     {
         if(dead == true){
             // Set Game Over Code
-            //SceneManager.LoadScene(5);
-            life = 4;
+            SceneManager.LoadScene(3);
+            //life = 4;
         }
     }
 
     public void TakeDamage(int d)
     {
         life -= d;
+        Debug.Log("You lost a life");
+        Debug.Log("Actual life: "+ life);
+
         Destroy(hearts[life].gameObject);
         if(life < 1)
         {
