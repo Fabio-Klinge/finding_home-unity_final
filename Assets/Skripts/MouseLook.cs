@@ -40,7 +40,7 @@ public class MouseLook : MonoBehaviour
         // Position of camera
         pos = camTransform.localPosition;
         // Start shaking camera
-        shakeTime = 4;
+        shakeTime = 3f;
 
     }
 

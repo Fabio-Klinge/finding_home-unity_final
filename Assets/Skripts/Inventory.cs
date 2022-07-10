@@ -93,7 +93,7 @@ public class Inventory : MonoBehaviour
                 // Match different Items
                 switch (items[i].name)
                 {
-                    case "Screw":
+                    case "item":
                         {
                             // Choose right graphic even for multiple items
                             inventory[i].sprite = Itemgraphic;
@@ -123,7 +123,7 @@ public class Inventory : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         // Tagged object near player
-        if (collision.tag == "Screw")
+        if (collision.tag == "item")
         {
             // Inventory is full
             if (items.Count >= limit)

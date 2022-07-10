@@ -17,33 +17,26 @@ public class CharBehaviour : MonoBehaviour
 
     // Default gravity value
     [SerializeField]
-    private float gravity = -8;
+    private float gravity = -18;
     // Stores our movement direction  
     Vector3 velocity;
 
-    // Inits to check the sphere of the ground object of the main character
-    // Center of the sphere
-    public Transform ground;
-    // Radius of sphere
-    public float groundDist = 0.4f;
-    // Controls which layers we want to collide with
-    public LayerMask groundMask;
+    // Chracter on Ground
     public bool isGrounded;
 
     // Jumping
     [SerializeField]
-    private float jumpValue = 40f;
+    private float jumpValue = 20f;
     private float yspeed; 
-    
-    //UI_Manager for lifes
-    //[SerializeField]
-    //private Ui_Manager uiManager :;
 
     // lives Manager
     public BeingAlive beingAlive;
 
     // To switch between cursor lock states
     private bool cursor_lock = true;
+
+    // Display opening only once
+    private bool once = true;
 
 
     void Start()
@@ -57,8 +50,7 @@ public class CharBehaviour : MonoBehaviour
         // Import other script
         sideChar = GameObject.FindGameObjectWithTag("SideChar").GetComponent<SideCharBehaviour>();
 
-        // Side Char opening sequence
-        sideChar.Opening("communication");
+
 
     }
 
@@ -66,10 +58,6 @@ public class CharBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Creates Sphere around ground object (from character) and checks wether this sphere
-        //  collides with ground
-        // If player collides: isGrounded == True
-        //isGrounded = Physics.CheckSphere(ground.position, groundDist, groundMask);
 
         // Leads to faster updates of the controller.isGrounded flag
         if (controller.isGrounded)
@@ -108,6 +96,14 @@ public class CharBehaviour : MonoBehaviour
             velocity.y += jumpValue;
         }
 
+        // Megga Jump
+        if (Input.GetKeyDown(KeyCode.J) && isGrounded)
+        {
+            Debug.Log("why no jump then");
+            // Changes y movement direction of character
+            velocity.y += jumpValue + 50;
+        }
+
         // Compute custom gravity
         velocity.y += gravity * Time.deltaTime;
         // Apply gravity value
@@ -118,6 +114,18 @@ public class CharBehaviour : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.H))
         {
             sideChar.VisitMain("communication");
+        }
+
+        // Interact with side char
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            sideChar.Opening("communication");
+        }
+
+        // Interact with side char
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            sideChar.TalkAboutMeggaJump("communication");
         }
 
 
@@ -142,7 +150,6 @@ public class CharBehaviour : MonoBehaviour
         // Reset Groundcheck
         isGrounded = false;
 
-        Border();
     }
 
     //Detect collisions between the GameObjects with Colliders attached
