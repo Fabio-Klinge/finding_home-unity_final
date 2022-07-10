@@ -13,7 +13,7 @@ public class BeingAlive : MonoBehaviour
         life = 3;
     }
 
-    // Update is called once per frame
+    // Update is called once per frame   WARUM LIFE=4?
     void Update()
     {
         if(dead == true){
