@@ -35,6 +35,12 @@ public class SideCharBehaviour : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, mainCharQuat, Time.deltaTime * 2.0f);
     }
 
+    public void Opening(string communication)
+    {
+        VisitMain("communication");
+
+    }
+
     public void VisitMain(string communication)
     {
        // mainChar = GameObject.FindGameObjectWithTag("MainChar")

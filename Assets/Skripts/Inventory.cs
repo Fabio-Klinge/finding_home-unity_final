@@ -49,15 +49,23 @@ public class Inventory : MonoBehaviour
         Display();
     }
 
+
+    public void Tester()
+    {
+        Debug.Log("am being called");
+    }
+
     public void UseItem(int i)
     {
+        Debug.Log("am being called");
+
         // Check whether there is an item in slot
         if (i < items.Count)
         {
             // For all different Items
             switch (items[i].name)
             {
-                case "item":
+                case "Screw":
                     {
                         // Using item
                         usingItem.SetActive(true);
@@ -115,7 +123,7 @@ public class Inventory : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         // Tagged object near player
-        if (collision.tag == "item")
+        if (collision.tag == "Screw")
         {
             // Inventory is full
             if (items.Count >= limit)
